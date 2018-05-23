@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p {
+	margin-bottom: .5em;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+ul {
+	list-style: none;
+	background: #333;
+	overflow: hidden;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	padding: .8em 1.2em;
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+}
+
+li a:hover:not(.active) {
+	background: #111;
+}
+
+.active {
+	background: #0077FF;
+}
+
+@media screen and (max-width: 600px) {
+	li {
+		float: none;
+	}
+}
+
+section article {
+	padding: 1em;
+}
